@@ -1,0 +1,36 @@
+.travel-card {
+  border-radius: 20px;
+  overflow: hidden;
+  min-height: 420px; /* match img2 height */
+}
+
+.card-img-top {
+  height: 250px;  /* same as img2 */
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px 20px 0 0;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 160px;
+}
+
+.price-tag {
+  font-weight: bold;
+  color: #ff6a00;
+}
+
+.btn-orange-sm {
+  background-color: #ff6a00;
+  color: white;
+  border-radius: 20px;
+  padding: 5px 15px;
+  font-size: 14px;
+}
+
+.btn-orange-sm:hover {
+  background-color: #e55800;
+}

@@ -1,0 +1,10 @@
+.navbar-glow {
+  border-bottom: 3px solid #ff6a00;
+  animation: glow 1.5s infinite ease-in-out;
+}
+
+@keyframes glow {
+  0% { border-color: #ff6a00; }
+  50% { border-color: #ffa366; }
+  100% { border-color: #ff6a00; }
+}

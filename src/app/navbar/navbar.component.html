@@ -1,0 +1,36 @@
+<nav class="navbar navbar-expand-lg bg-white shadow-sm py-3 navbar-glow ">
+  <div class="container">
+
+    <!-- Logo -->
+    <a class="navbar-brand fw-bold fs-3" href="#">WORLD TRAVEL</a>
+
+    <!-- Toggle button for mobile -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Menu -->
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="navbar-nav ms-auto gap-4">
+
+        <li class="nav-item"><a class="nav-link" href="#destinations">Discover</a></li>
+        <li class="nav-item"><a class="nav-link" href="#" [routerLink]="['/features']">Features</a></li>
+        <li class="nav-item"><a class="nav-link" href="#" [routerLink]="['/details']">About us</a></li>
+        <li class="nav-item"><a class="nav-link" href="#" [routerLink]="['/pricing']">Pricing</a></li>
+        <li class="nav-item"><a class="nav-link" href="#" [routerLink]="['/blog']">Blog</a></li>
+
+        <!-- Search icon -->
+        <li class="nav-item">
+          <i class="bi bi-search fs-4"></i>
+        </li>
+
+        <!-- Book button -->
+        <li class="nav-item">
+          <button class="btn btn-dark rounded-pill px-4">Book Now</button>
+        </li>
+
+      </ul>
+    </div>
+
+  </div>
+</nav>
